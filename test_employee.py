@@ -1,6 +1,6 @@
-from employee import employee_details
+from employee import employee_info
 
-def test_employee_details():
+def test_employee_info():
     expected_output=(
         "Employee Name = Alice\n"
         "Employee ID = e101\n"
@@ -8,5 +8,5 @@ def test_employee_details():
         "salary = 55000"
     )
 
-    assert employee_details("Alice","e101","IT",55000) == expected_output
+    assert employee_info("Alice","e101","IT",55000) == expected_output
    
