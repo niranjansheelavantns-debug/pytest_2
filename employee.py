@@ -1,4 +1,3 @@
-
 def employee_details(name,emp_id,department,salary):
     result=(
         f"Employee Name:{name}\n"
